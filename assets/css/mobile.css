@@ -1,0 +1,36 @@
+@import url("default.css");
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.card{
+    width: 330px;
+    height: 580px;
+   
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+/*Card info*/
+.card__info{  
+    text-align: center;
+    margin: 24px;
+}
+.card__info img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50% ;
+}
+/*Card links*/
+#card__links-list {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 291px;
+}
+#card__links-list li{
+    list-style: none;
+    text-align: center;  
+}
