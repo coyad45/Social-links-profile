@@ -1,1 +1,10 @@
 @import url("default.css");
+@import url("mobile.css");
+
+.card{
+    width: 400px;
+    height: 600px;
+}
+.card__info{
+    place-content: center;
+}
